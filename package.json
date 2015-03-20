@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/asbjornenge/mocha-stylus-compiler/issues"
   },
-  "homepage": "https://github.com/asbjornenge/mocha-stylus-compiler"
+  "homepage": "https://github.com/asbjornenge/mocha-stylus-compiler",
+  "dependencies": {
+    "stylus": "^0.50.0"
+  }
 }
