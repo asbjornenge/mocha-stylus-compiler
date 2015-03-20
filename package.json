@@ -1,0 +1,27 @@
+{
+  "name": "mocha-stylus-compiler",
+  "version": "1.0.0",
+  "description": "Stylus compiler for mocha",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --compilers styl:. -R nyan -w --check-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asbjornenge/mocha-stylus-compiler.git"
+  },
+  "keywords": [
+    "mocha",
+    "mocha-compiler",
+    "stylus"
+  ],
+  "author": "Asbjorn Enge <asbjorn@hanafjedle.net>",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/asbjornenge/mocha-stylus-compiler/issues"
+  },
+  "homepage": "https://github.com/asbjornenge/mocha-stylus-compiler"
+}
