@@ -1,6 +1,6 @@
 {
   "name": "mocha-stylus-compiler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stylus compiler for mocha",
   "main": "index.js",
   "directories": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/asbjornenge/mocha-stylus-compiler",
   "dependencies": {
+    "js-string-escape": "^1.0.0",
     "stylus": "^0.50.0"
   }
 }
